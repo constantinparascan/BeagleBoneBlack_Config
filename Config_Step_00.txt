@@ -1,0 +1,10 @@
+[ UBUNTU ]
+
+- SSH usage
+
+    1. if you have problems opening ssh connection to BBB then the fallowing comands needs to be executed:
+    
+        $ ssh-keygen -R 192.168.0.105
+        $ ssh root@192.168.0.105
+        
+    2.
